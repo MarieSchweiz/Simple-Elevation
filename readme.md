@@ -1,4 +1,4 @@
-# Simple Ripple
+# Simple Elevation
 
 A [Framer.js](https://github.com/koenbok/Framer) module for adding elevation values to your framer code. Compatible with framers design view.
 
