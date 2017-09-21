@@ -10,5 +10,4 @@ elevation(yourlayer,12, 0.20, "easeOut")
 
 # Activate elevation function without defining time and curve
 
-
 elevation(yourlayer,12)

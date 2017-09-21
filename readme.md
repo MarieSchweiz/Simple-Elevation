@@ -25,7 +25,6 @@ elevation(yourlayer,12, 0.20, "easeOut")
 
 # Activate elevation function without defining time and curve
 
-
 elevation(yourlayer,12)
 ```
 
@@ -33,12 +32,9 @@ elevation(yourlayer,12)
 By simply changing the values in the elevation function you can change elevation, time and curve. If you don't define them, they go back on defaults.
 
 ```
-#current defaults
-
-	defaulttime = 0.20
-	defaultcurve = "ease"
-	defaultelevation = 0
-
+defaulttime = 0.20
+defaultcurve = "ease"
+defaultelevation = 0
 ```
 
 <a href='https://open.framermodules.com/<Simple Elevation>'>
