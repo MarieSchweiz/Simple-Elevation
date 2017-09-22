@@ -10,32 +10,31 @@ Learn how to add a module into your framer project and add the following lines o
 ```
 elevation = require("simpleelevation").elevation
 ```
-### Use Simple elevation
-By adding a an event and calling the function or just call the function
+### Use simple elevation
+By adding a an event and calling the function or just call the function alone.
 
 ```
 # Activate elevation within an event
 yourlayer.onTouchStart (event, layer) ->
 	
     #function(layer, elevation, time, curve)
-	elevation(layer,12, 0.20, "easeOut")
+    elevation(layer,8, 0.20, "easeOut")
 
 # Activate elevation function for a layer without an event
 
-elevation(yourlayer,12, 0.20, "easeOut")
+elevation(yourlayer,8, 0.20, "easeOut")
 
 # Activate elevation function without defining time and curve
 
-elevation(yourlayer,12)
+elevation(yourlayer,8)
 ```
 
 ### Configure elevation function
-By simply changing the values in the elevation function you can change elevation, time and curve. If you don't define them, they go back on defaults.
+By simply changing the values in the elevation function you can change elevation, time and curve. If you don't define time and curve, they go back on defaults. Elevation has to be defined.
 
 ```
 defaulttime = 0.20
 defaultcurve = "ease"
-defaultelevation = 0
 ```
 
 <a href='https://open.framermodules.com/<Simple Elevation>'>
