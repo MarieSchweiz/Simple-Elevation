@@ -2,7 +2,8 @@
 
 A [Framer](https://framer.com) Module to visually elevate Layers. Also compatible with Framer Design.
 
-<p align="center">[![Simple-Elevation Demo](/Simple-elevation-demo.gif)](https://framer.cloud/gXXfI)</p>
+[![Simple-Elevation Demo](/Simple-elevation-demo.gif)](https://framer.cloud/gXXfI)
+
 
 ### Add Module
 Add the module to your Framer project by drag'n'dropping `simpleelevation.coffee` onto your Framer window with your project open.
