@@ -1,9 +1,9 @@
 {
     "name": "Simple Elevation",
     "description": "Visual elevation effect used on android and material",
-    "author": "Marie Schweiz",
+    "author": "Marie Schweiz, Marc Krenn",
 
-    "require": "elevation = require('simpleelevation').elevation",
+    "require": "{simpleelevation} = require 'simpleelevation'",
     "install": "simpleelevation.coffee",
     "example": "example.coffee",
 

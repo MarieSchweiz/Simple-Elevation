@@ -1,14 +1,8 @@
 
-# Activate elevation within an event
-yourlayer.onTouchStart (event, layer) ->
+layer = new Layer point: Align.center
 
-	#function(layer, elevation, time, curve)
-	elevation(layer,12, 0.20, "easeOut")
+# Elevate using default animation
+layer.elevate(20)
 
-# Activate elevation function for a layer without an event
-
-elevation(yourlayer,12, 0.20, "easeOut")
-
-# Activate elevation function without defining time and curve
-
-elevation(yourlayer,12)
+# Elevate using custom animation
+layer.elevate(20, {time: 2, curve: Spring(damping: .5)})
